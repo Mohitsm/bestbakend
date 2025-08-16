@@ -1,0 +1,37 @@
+{
+  "name": "bestbakend",
+  "version": "1.0.0",
+  "description": "this is best bakend",
+  "keywords": [
+    "javascript",
+    "backend",
+    "best"
+  ],
+  "homepage": "https://github.com/Mohitsm/bestbakend#readme",
+  "bugs": {
+    "url": "https://github.com/Mohitsm/bestbakend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mohitsm/bestbakend.git"
+  },
+  "license": "ISC",
+  "author": "mohitkumar",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "cros": "^1.1.0",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.1"
+  }
+}
